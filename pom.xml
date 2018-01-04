@@ -7,7 +7,7 @@
 	<artifactId>jenkins-helloworld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<!--步骤0： 修改为war包-->
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>jenkins-helloworld</name>
 	<description>Demo project for Spring Boot</description>
