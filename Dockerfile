@@ -7,7 +7,7 @@ VOLUME /tmp
 RUN mkdir /opt/bin
 ADD jenkins-helloworld-0.0.1-SNAPSHOT.jar /opt/bin/jenkins-helloworld-0.0.1-SNAPSHOT.jar
 RUN bash -c 'touch /opt/bin/jenkins-helloworld-0.0.1-SNAPSHOT.jar'
-#容器对外暴露8089端口
-EXPOSE 8089
+#容器对外暴露8082端口
+EXPOSE 8082
 #容器启动后需要执行的命令
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/opt/bin/jenkins-helloworld-0.0.1-SNAPSHOT.jar"]
