@@ -30,18 +30,18 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 			<!--步骤1： 排除内置容器，排除内置容器导出成war包可以让外部容器运行spring-boot项目-->
-			<exclusions>
+			<!-- <exclusions>
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
-			</exclusions>
+			</exclusions> -->
 		</dependency>
 		<!--步骤2： 加入servlet依赖-->
-		<dependency>  
+		<!-- <dependency>  
             <groupId>javax.servlet</groupId>  
             <artifactId>javax.servlet-api</artifactId>  
-        </dependency>  
+        </dependency>   -->
         
         <dependency>  
             <groupId>com.rainbow.jenkins</groupId>  
